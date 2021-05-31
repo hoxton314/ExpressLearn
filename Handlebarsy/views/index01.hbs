@@ -1,0 +1,37 @@
+<b>
+    wyświetlenie całej tablicy 1 lub 2-wymiarowej<br>
+
+    {{langs}}
+    {{digits}}
+</b>
+<br>
+<b>
+    pobranie elementu z tablicy 1 lub 2-wymiarowej<br>
+
+    {{countries.[0]}}
+    {{digits.[0].[1]}}
+</b>
+<br>
+<b>
+    iteracja przez tablicę<br>
+
+    {{#each countries}}
+    {{@index}} {{this}}
+    {{/each}}
+</b>
+<br>
+<b>
+    iteracja przez obiekt<br>
+
+    {{#each user}}
+    {{@index}} {{@key}} {{this}}
+    {{/each}}
+</b>
+<br>
+<b>
+    iteracja przez tablicę obiektów<br>
+
+    {{#each books}}
+    {{@index}} {{title}}
+    {{/each}}
+</b>

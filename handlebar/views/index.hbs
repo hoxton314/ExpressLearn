@@ -1,0 +1,14 @@
+<form action="/form" method="GET">
+
+    <select id="books" name="books">
+
+        {{#each books}}
+        <option value="{{title}}">{{title}}</option>
+        {{/each}}
+
+
+
+    </select>
+
+    <input type="submit" value="Submit">
+</form>
